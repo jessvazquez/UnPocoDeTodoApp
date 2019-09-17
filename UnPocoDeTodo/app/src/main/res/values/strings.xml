@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Un Poco De Todo</string>
+    <string name="bienvenido">"Bienvenido"</string>
+    <string name="correo">"Correo"</string>
+    <string name="contrasena">"Contrasena"</string>
+    <string name="ingresar">"Ingresar"</string>
+    <string name="limpiar">"Limpiar datos"</string>
+    <string name="datos">"Datos"</string>
+    <string name="nombre">"Nombre"</string>
+    <string name="fecha">"Fecha"</string>
+    <string name="color_favorito">"Color favorito"</string>
+    <string name="sexo">"Sexo"</string>
+    <string name="masculino">"Masculino"</string>
+    <string name="femenino">"Femenino"</string>
+    <string name="siguiente">"Siguiente"</string>
+    <string name="datosObtenidos">"Datos Obtenidos"</string>
+    <string name="botones">"Botones"</string>
+    <string name="imagenes">"Imagenes"</string>
+    <string name="camara">"Camara"</string>
+    <string name="web">"Web"</string>
+    <string name="gps">"Gps"</string>
+    <string name="video">"Video"</string>
+    <string name="ventana_pop">"Ventana POP"</string>
+    <string name="boton_imagen">"Boton Imagen"</string>
+    <string name="salir">"Salir"</string>
+    <string name="tomarFoto">"Tomar Foto"</string>
+    <string name="activarVentana">"Activar ventana POP-UP"</string>
+
+
+    <string-array name="opciones">
+        <item>Rojo</item>
+        <item>Negro</item>
+        <item>Blanco</item>
+        <item>Azul</item>
+        <item>Rosa</item>
+    </string-array>
+
+</resources>

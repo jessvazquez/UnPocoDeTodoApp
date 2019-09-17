@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity">
+
+
+    <Button
+        android:id="@+id/buttonPlay"
+        android:layout_width="90dp"
+        android:layout_height="53dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/buttonPause"
+        android:layout_toLeftOf="@+id/buttonPause"
+        android:text="PLAY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.165"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702" />
+
+    <Button
+        android:id="@+id/buttonStop"
+        android:layout_width="84dp"
+        android:layout_height="53dp"
+        android:layout_alignBaseline="@+id/buttonPause"
+        android:layout_alignBottom="@+id/buttonPause"
+        android:layout_marginEnd="28dp"
+        android:text="STOP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.702"
+        android:layout_marginRight="28dp" />
+
+    <Button
+        android:id="@+id/buttonPause"
+        android:layout_width="86dp"
+        android:layout_height="51dp"
+        android:layout_alignBaseline="@+id/buttonPlay"
+        android:layout_alignBottom="@+id/buttonPlay"
+        android:layout_centerHorizontal="true"
+        android:text="PAUSE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="383dp"
+        android:layout_height="267dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.403" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
